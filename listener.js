@@ -8,13 +8,13 @@ var sheet = SpreadsheetApp.openById("hidden").getSheetByName(year);
 
 // Define background colors associated with each type of day
 var colorDict = {
-    "none": "#d6dce4",
-    "gym": "yellow",
-    "comp": "cyan",
-    "outdoors": "magenta",
-    "sick": "red",
-    "sick but climbed": "orange",
-    "obligation": "dark grey 3"
+  "none": "#d6dce4",
+  "gym": "yellow",
+  "comp": "cyan",
+  "outdoors": "magenta",
+  "sick": "red",
+  "sickbutclimbed": "orange",
+  "obligation": "#666666"
 };
 
 // Function that executes when an apple shortcut request is sent
